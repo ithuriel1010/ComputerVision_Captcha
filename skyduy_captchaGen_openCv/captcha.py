@@ -97,7 +97,7 @@ class Captcha:
 
     def _draw_basic(self, img, text):
         font_face = getattr(cv2, np.random.choice(self.fs))
-        font_scale = 1
+        font_scale = 2
         font_thickness = 2
         max_width = max_high = 0
         for i in text:

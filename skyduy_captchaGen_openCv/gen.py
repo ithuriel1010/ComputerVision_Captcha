@@ -13,9 +13,11 @@ from captcha import Captcha
 # c = Captcha(300, 150, fs=['FONT_ITALIC'], debug=False, folder='data/')
 # c.batch_create_img(1)
 
-letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'K', 'M',
-               'N', 'P', 'R', 'T', 'U', 'V', 'W', 'X', 'Y']
-c = CaptchaOver(300, 150, fs=['FONT_ITALIC'], debug=False, folder='data/')
+letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H','I','J' 'K', 'L' 'M',
+               'N', 'O','P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'q', 'w', 'e','r', 't', 'y', 'u', 'i', 'o', 'p',
+               'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'z', 'x', 'c', 'v', 'b', 'n', 'm', '1', '2', '3', '4', '5', '6', '7',
+               '8', '9', '0']
+c = Captcha(300, 150, fs=['FONT_ITALIC'], debug=False, folder='data/')
 c.batch_create_img(1)
 
 ## Mohe zmienić font scale and font thickness (100)
