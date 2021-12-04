@@ -21,7 +21,7 @@ include("colorList.php");
       $rgbPixel[$color] = mt_rand(0, 255);
   }
 
-$captcha = new captcha(5,48,100,350,$numbPixels,$numbLines,"font/GreatVibes-Regular.otf","database/");
+$captcha = new captcha(5,48,100,350,$numbPixels,$numbLines,"font/ZackandSarah.ttf","database/");
 
   //Set captcha options
   $captcha->setBgColor(255,255,255); //Set background color (R,G,B)
